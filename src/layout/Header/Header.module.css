@@ -1,3 +1,12 @@
+button {
+    border: none;
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+button:active {
+    transform: scale(0.95);
+}
 
 header {
     display: flex;
@@ -19,7 +28,6 @@ header {
     justify-content: space-between;
     padding: 0;
     min-width: 38vw;
-    text-transform: uppercase;
 }
 
 .headerList a {
@@ -28,4 +36,8 @@ header {
     font-family: 'Montserrat', sans-serif;;
     font-size: 14px;
     line-height: 17px;
+}
+
+.headerList a:hover {
+    color: #ff00ff;
 }

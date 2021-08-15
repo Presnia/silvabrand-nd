@@ -1,7 +1,12 @@
+:root {
+  --main-background: #0B090A;
+  --main-white: #FFF;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #0B090A;
+  background-color: var(--main-background);
 }

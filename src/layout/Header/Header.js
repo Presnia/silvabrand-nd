@@ -9,7 +9,9 @@ const Header = () => {
             <ul className={s.headerList}>{
                 HeaderData.map(item => (
                     <li>
-                        <a href={item.src}>{item.title}</a>
+                        <button>
+                            <a href={item.src}>{item.title}</a>
+                        </button>
                     </li>
                 ))
             }</ul>
