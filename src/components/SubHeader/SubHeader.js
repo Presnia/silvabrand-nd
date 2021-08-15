@@ -10,7 +10,9 @@ const SubHeader = () => {
                     Creative Design
                     <span className={s.subTitle}>Agency</span>
                 </h1>
-                <img src={arrow} alt='arrow down'/>
+                <button>
+                    <img src={arrow} alt='arrow down'/>
+                </button>
             </section>
             <img src={apollo} alt='apollo'/>
         </div>
