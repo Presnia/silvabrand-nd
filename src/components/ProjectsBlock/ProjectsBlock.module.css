@@ -49,13 +49,13 @@
     transform: rotate(-90deg);
 }
 
+.websiteDesignContainer {
+    margin-bottom: 118px;
+}
+
 .websiteDesignBlock {
     position: relative;
     margin-top: 140px;
-}
-
-.websiteDesignContainer {
-
 }
 
 .websiteDesign {
@@ -65,7 +65,6 @@
 .playerBtn {
     position: absolute;
     top: 48%;
-    right: 53%;
     transform: translateY(-50%);
     width: 150px;
     height: 150px;
@@ -75,7 +74,7 @@
 .blockName {
     display: flex;
     flex-direction: row-reverse;
-    width: 75vw;
+    max-width: 75vw;
 }
 
 .blockName h3, span {
@@ -96,6 +95,34 @@
 .blockName h3 {
     padding-left: 5vw;
     border-bottom: 2px solid var(--main-white);
+}
+
+
+@media (max-width: 1980px) {
+    .websiteDesignContainer {
+        max-width: 53.5vw;
+    }
+    .playerBtn {
+        right: 42%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .websiteDesignContainer {
+        max-width: 71.2vw;
+    }
+    .playerBtn {
+        right: 42%;
+    }
+}
+
+@media (max-width: 1368px) {
+    .websiteDesignContainer {
+        max-width: 75vw;
+    }
+    .playerBtn {
+        right: 41%;
+    }
 }
 
 
