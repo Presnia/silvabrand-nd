@@ -11,7 +11,7 @@ const SubHeader = () => {
                     <span className={s.subTitle}>Agency</span>
                 </h1>
                 <button>
-                    <img className={s.arrow} src={arrow} alt='arrow down'/>
+                    <img src={arrow} alt='arrow down'/>
                 </button>
             </section>
             <img src={apollo} alt='apollo'/>
