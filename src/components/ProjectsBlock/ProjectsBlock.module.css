@@ -1,6 +1,7 @@
 .projectsBlock {
     position: relative;
     margin-left: 8.5vw;
+    margin-bottom: 210px;
 }
 
 .headerBlock {
@@ -95,6 +96,36 @@
 .blockName h3 {
     padding-left: 5vw;
     border-bottom: 2px solid var(--main-white);
+}
+
+.blocksContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 1100px;
+}
+
+.brandingBlock {
+    max-width: 561px;
+}
+
+.brandingBlockImg {
+    margin-bottom: 20px;
+}
+
+.casesBlock {
+    margin: 200px 8.5vw 0 0;
+}
+
+.casesBlockImg {
+    margin-bottom: 20px;
+}
+
+.allProjectsBtn {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: transform 0.2s ease-in;
 }
 
 
