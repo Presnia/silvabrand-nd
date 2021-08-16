@@ -1,0 +1,97 @@
+.cooperateBlock {
+    margin: 210px 0 138px 0;
+    overflow: hidden;
+}
+
+.blockTitle {
+    width: 1140px;
+    margin: 0 0 60px auto;
+    border-top: 2px solid var(--main-white);
+}
+
+.blockTitle span {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.dot {
+    margin: 0 36px;
+    transform: translateY(-160%);
+}
+
+.wrapperLine {
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.line1 {
+    margin-left: 40px;
+}
+
+.lineOne {
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: var(--main-background);
+}
+
+.line2 {
+    margin-left: -180px;
+}
+
+.lineTwo,
+.lineFive {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.line3 {
+    margin-left: 30px;
+}
+
+.lineThree {
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px #fff;
+    -webkit-text-fill-color: var(--main-background);
+}
+
+.line4 {
+    margin-left: -180px;
+}
+
+.lineFour {
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 82px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: var(--main-background);
+}
+
+.line5 {
+    margin-left: -70px;
+}
+
+
+@media (max-width: 1440px) {
+    .blockTitle {
+        width: 1170px;
+    }
+}
